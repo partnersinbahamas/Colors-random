@@ -1,0 +1,45 @@
+.page__body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+}
+
+.title {
+    background-color: transparent;
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title:hover {
+    background-color: rgba(0, 0, 0, 0.156);
+
+}
+
+button {
+    border: 0px;
+    background-color: transparent;
+    font-size: 45px;
+    position: absolute;
+    bottom: 300px;
+    left: calc(50% - 40px);
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.156);
+}
